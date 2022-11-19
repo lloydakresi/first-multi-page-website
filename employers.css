@@ -1,0 +1,159 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0em 2em;
+    margin: 0em 0em;
+    position: sticky;
+    top: 0px;
+    background-color: #0E294B;
+    color:azure;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    z-index: 4;
+
+}
+
+
+
+#header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-img{
+    width: 3em;
+    height: 3em;
+    align-self: center;
+}
+
+h1{
+    align-items: flex-end;
+    padding-bottom: 0em;
+    padding-left: 0.2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ol{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    padding-left: 4em;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+
+.testimonies{
+    width: 15em;
+    height: 12em;
+    border-radius: 16px;
+}
+
+#review-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 4em;
+    z-index: 1;
+    text-align: center;
+}
+
+ h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#review-section span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.review{
+background: rgba(94, 152, 236, 0.89);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.3px);
+-webkit-backdrop-filter: blur(18.3px);
+border: 1px solid rgba(94, 152, 236, 0.37);
+display: flex;
+flex-direction: column;
+align-items: center ;
+width: 17em;
+text-align: center;
+padding-top: 1em;
+margin-right: 3em ;
+
+}
+
+.review p{
+    font-size: 1.2em;
+}
+
+#statistics{
+    margin-top: 2em;
+    background-image: url(imgs/earth_background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+    z-index: 3;
+    position: relative;
+}
+
+#geography{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    padding-left: 1em;
+}
+
+#geography p{
+    font-size: 1.5em;
+}
+
+#geography a{
+    color: white;
+}
+
+footer{
+    padding: 0em 3em;
+    margin: 0em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+
+}
+#copyright img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+
+}

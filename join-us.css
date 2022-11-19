@@ -1,0 +1,184 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0em 2em;
+    margin: 0em 0em;
+    position: sticky;
+    top: 0px;
+    background-color: #0E294B;
+    color:azure;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    z-index: 2;
+
+}
+
+
+
+#header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-img{
+    width: 3em;
+    height: 3em;
+    align-self: center;
+}
+
+h1{
+    align-items: flex-end;
+    padding-bottom: 0em;
+    padding-left: 0.2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ol{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    padding-left: 4em;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+#benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+#benefits ul{
+    height: 6em;
+    margin-left: -3em;
+    margin-top: -1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#benefits p{
+    text-align: center;
+}
+
+body{
+    background-image: url(imgs/pexels-fauxels-3184432.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#main-footer{
+    margin: 0em 8em;
+   /* From https://css.glass */
+background: rgba(241, 245, 251, 0.95);
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.3px);
+-webkit-backdrop-filter: blur(18.3px);
+border: 1px solid rgba(241, 245, 251, 0.37);
+}
+
+fieldset{
+    border-style: none;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-auto-rows: 40px;
+    justify-items: center;
+    padding-top: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+
+
+}
+
+#text-input{
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#text-input input{
+    margin-bottom: 1em;
+    width: 20em;
+    height: 25px;
+    border-radius: 6px;
+
+}
+
+#reasons{
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reasons textarea{
+    height: 4em;
+    width: 30em;
+    border-radius: 8px;
+}
+
+fieldset span{
+    grid-column: 2 / 3;
+    grid-row: 7;
+    margin-top: -2em;
+
+}
+
+fieldset button{
+    grid-column: 2 / 3;
+    grid-row: 8;
+    align-self: center;
+    margin-top: -6em;
+    border-radius: 4px;
+    width: 4em;
+    height: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+}
+
+footer{
+    padding: 0em 3em;
+    margin: 0em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#copyright img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+
+}
